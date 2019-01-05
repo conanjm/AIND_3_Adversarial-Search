@@ -1,0 +1,464 @@
+Alpha-Beta Minimax:
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-----------------------------+-+----+-+----
+Running 40 games:
+------------------------------------------
+Your agent won 5.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-------------------------+---+-------+------
+Running 40 games:
+-------------------------+-----+----+---+-
+Your agent won 8.8% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+---------------------------+++-+-----+---
+Running 40 games:
+----------------------------------------
+Your agent won 6.2% of matches against Minimax Agent
+
+=============================================================================================================================================
+Principal Variation Minimax:
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+----------------+--------+------+--------
+Running 40 games:
+----------------+---------+--+--+++-----+
+Your agent won 12.5% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+----------------------+--++--+--+------+
+Running 40 games:
+-----------------------+-------+-++-+----+
+Your agent won 15.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-------------------------++------------+--
+Running 40 games:
+--------------------+---+------------+--+-+-
+Your agent won 10.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+=============================================================================================================================================
+Alpha-Beta Greedy:
+
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+------------+------+-+-+---+-------+---+
+Running 40 games:
+-+---------+------------------+---+-----+--
+Your agent won 15.0% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+---------+-+-+-----++-+--------++-----+-+-++
+Running 40 games:
+-----+------+--+----------+-----+++-+----+----+
+Your agent won 23.8% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+---------+---++--------+--------+-++++---
+Running 40 games:
+-----++++-------------+--------+++-+++-++-++
+Your agent won 27.5% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$
+
+=============================================================================================================================================
+Principal Variation Greedy:
+
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+-----------------++-++++------++-+-+-+-+-
+Running 40 games:
+-------+---+--------+-+-----+-----+--++--+
+Your agent won 26.2% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
++++----------+------++-++---------+---++
+Running 40 games:
+-------+----------+--+-+--+++--+-+-+-+++++-+++
+Your agent won 36.2% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+-+++++++++----+--------------+++-----+-++--
+Running 40 games:
+---+++++-------+---++-++--+--+--+++---++++
+Your agent won 41.2% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+++-+---------+-+---+-+-++-+-+--+--+-+---
+Running 40 games:
+----+-----------+-+--+++-+---+++---+-+--
+Your agent won 32.5% of matches against Greedy Agent
+
+=============================================================================================================================================
+
+Alpha-Beta RANDOM:
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++++++++-+----++++++-+++++-+++-++-++---+---
+Running 40 games:
+-+-++++++-+++++++++-+-++-++++-+++-+-++-+-+-+
+Your agent won 67.5% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++---+--++++++++-+++-++--+-++++++----+-+++-
+Running 40 games:
+---+--+--+++++++++++-+-+++++++-+++--++--++-
+Your agent won 67.5% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++++-++++++++-++++++++++-++--++-+-+++++-+
+Running 40 games:
+++++-+++-++++++++++++++-+++++++---+---+++-
+Your agent won 77.5% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++++-+--+++++++++-+--+++++++++++-+++-++++++
+Running 40 games:
++++-++++++--+++++-+++-+---+-++--+-+-+-++++
+Your agent won 73.8% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++-+++++++++-+-+--+++++-+++++-++----+-+--+
+Running 40 games:
+++++++++++-++++++-++++++-++-++-++-++--+-+
+Your agent won 71.2% of matches against Random Agent
+
+
+=============================================================================================================================================
+
+
+Principal Variation RANDOM:
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
+++++-+++++++++-+++-+++-++++++++-+-+++-++
+Running 40 games:
++++++++--++++++-+++-+++-+++++++-+-++-++++
+Your agent won 81.2% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
+-++++++++-++++++++++-++--++-+-+++-++-+++
+Running 40 games:
+++++++-+++-++++-++-++++++--+--+++-++++-++++
+Your agent won 77.5% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
+++++++++-++++++++++--++-+-+++-++-++-++-+
+Running 40 games:
++++++++++-+-+++--++-+++++-+-+++-+--++-++-
+Your agent won 75.0% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++-+++++++++++++---++-+-++-++++-++++++++-+
+Running 40 games:
+-++++++++---++++-+-+++---++++-++++-++--++
+Your agent won 72.5% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o RANDOM
+Running 40 games:
++-++++-++++-+++++-+++++++++-+++--++++++++
+Running 40 games:
+++-++-+++++++++++-++-+--+-++-++-++++-++++
+Your agent won 78.8% of matches against Random Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
+=============================================================================================================================================
+
+
+Alpha-Beta SELF:
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
+--+-+++-++----+-++-+++----+-++--+++-++-+
+Running 40 games:
++++++-+-+-++++--+++++---+++---++----+-+-+
+Your agent won 55.0% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
+---+++++-+++----+--++--+-+-++-+++++-----
+Running 40 games:
+-++-+-+++--++-++-+++----+----++-----+--+
+Your agent won 47.5% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
++--+-++--+-++++----+---+-+-++++-+--+--+-
+Running 40 games:
++++---++-+++++++++-+----+--+-+++-+++-++-
+Your agent won 55.0% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
++++--+--+++++-++--+++-+-+++-+++++++-+++-
+Running 40 games:
++------+----+---+-+-++-+++++-+-+-+--++-+
+Your agent won 57.5% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
+-++--+----+++------+---++-+-+-+++----+-+
+Running 40 games:
+-++---+-+-+++++++-+-+---++-+-+-++++--+---
+Your agent won 46.2% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
+
+
+=============================================================================================================================================
+Principal Variation SELF:
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
+---+++++---++----+---+-+++-++-+---+++--+
+Running 40 games:
+++-+++-+-++-------+-+---+-++-+-+----+--+
+Your agent won 45.0% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
+-++-++-+-+---+++++-++----+-++-----+++++-
+Running 40 games:
+-++-++++-+-+--++-+-+++--+-++++-++----+-+
+Your agent won 55.0% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
++--+--+-++---+---++++-+++---++-+-++++---
+Running 40 games:
+-++++-+-+----+-++------++-+---+--+++---+
+Your agent won 46.2% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
++------+---+-+++--+-+-+++-+-++--+-+++++-
+Running 40 games:
+---+-++-+--+++++-+++++-----+-------+++-+
+Your agent won 48.8% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o SELF
+Running 40 games:
++++-++--+--++++-++-+-+-+++-+++----++-+--
+Running 40 games:
+++-++++---+-+-+-+-++---+-+-+-------++-+-
+Your agent won 51.2% of matches against Custom TestAgent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
+
+
+=============================================================================================================================================
+
+
+Alpha-Beta GREEDY:
+
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+---------------------------+--+----------
+Running 40 games:
++--------------+-++++----------------+-++
+Your agent won 13.8% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+-------------------+---+-------++++-----
+Running 40 games:
+-----+---+---+---+--++--+++--++++--+-+-+++-+
+Your agent won 30.0% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+----+----------+--+----++-------------++++-
+Running 40 games:
+-------+--------+-----++++--+++-+--+--++
+Your agent won 27.5% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+---------------------+++-----+----++--++-+-+
+Running 40 games:
+------------------------+--++--++++++----+
+Your agent won 25.0% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+-----------+------+--+--++-+-----+------+
+Running 40 games:
+-+-----+--------------------++++--+++++---
+Your agent won 23.8% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
+
+
+
+=============================================================================================================================================
+
+
+Principal Variation GREEDY:
+
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
++-++++----+---+-+----------+--+--+---+++-
+Running 40 games:
+-----------+--+--++-+---------++++++-+---
+Your agent won 32.5% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+--++-+-------+-++-++--++-+-+---+++-+-+-++-
+Running 40 games:
+-----++-++----+-++--+---++----+--++---+-+++
+Your agent won 45.0% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+---+++-------------+++++++------+---+-+-+
+Running 40 games:
+-----------------++-----------+---+-------++
+Your agent won 25.0% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
+--+--+-----------+----++-++++++----++--+
+Running 40 games:
+-------------+--++------------------++++-+++
+Your agent won 28.8% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 -o GREEDY
+Running 40 games:
++---+-----------------+-++--+++-----+----+
+Running 40 games:
+---------------------++------+-------------
+Your agent won 15.0% of matches against Greedy Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
+=============================================================================================================================================
+
+
+
+Alpha-Beta MINIMAX:
+
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+------------++--------+---------+--+----
+Running 40 games:
+------------------------------+-+----+-----
+Your agent won 10.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-----------------------++--------+-++---
+Running 40 games:
+------------------+---+-+++++-----------
+Your agent won 15.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+------------------+-+-+--+--++---+-----++
+Running 40 games:
+------------------------+---+--------+++
+Your agent won 17.5% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-------------------------+-------+------
+Running 40 games:
+---------------------++-++-+----+-----++
+Your agent won 12.5% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+---------------------+----++++----+-----
+Running 40 games:
+----------------------------------+-+-+-
+Your agent won 11.2% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
+=============================================================================================================================================
+
+Principal Variation MINIMAX:
+
+
+
+
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+--------------------------+-+----+--+-+-+-
+Running 40 games:
+-----------------++--------+-+---+--+----
+Your agent won 15.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+---------------+-----+-+-+-+-++++--+--+-
+Running 40 games:
+-------------------+------------+++--++++
+Your agent won 23.8% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-----------+-----------+----+------+-+-+--
+Running 40 games:
+-----------------+---+-+---+----+++-+++-
+Your agent won 20.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-----------++---++------++-----+-+-+++---+-
+Running 40 games:
+-------------------+---+-------------+-+--
+Your agent won 20.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ python3 run_match.py  -f -p 40 -r 20 
+Running 40 games:
+-------------+----------+-----+-+-+--+--+
+Running 40 games:
+---------------------------+-----+++-++++-+-
+Your agent won 20.0% of matches against Minimax Agent
+
+(aind-v3) gvenkat@PT7910:~/aind-master/artificial-intelligence-master/Projects/3_Adversarial Search$ 
+
